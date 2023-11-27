@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 
 export default async function A() {
   const res = await (await fetch("http://localhost:8080")).json();
